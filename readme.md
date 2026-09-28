@@ -22,7 +22,7 @@ This project builds a complete **Data & Analytics Control Tower** that helps to:
 
 ```text
 .
-├── dashboard/                  # Dashboard screenshots and full PDF export from Looker Studio
+├── dashboards/                  # Dashboard screenshots and full PDF export from Looker Studio
 │   ├── 01-Executive Overview & Historical Consumption.png
 │   ├── 02-Demand Planning & Inventory Optimization.png
 │   ├── 03-Finished Goods Inventory & Quality Overview.png
@@ -39,10 +39,16 @@ This project builds a complete **Data & Analytics Control Tower** that helps to:
 │   └── create_views_and_indexes.sql
 ├── .gitignore                  # Git configuration file to keep private data safe
 └── README.md                   # Project documentation
+```
 
 ---
-
 ## 🔄 Data Pipeline & Architecture
+
+1. **Data Ingestion & Anonymization (`notebooks/`)**: Python script dedicated to processing raw company files (`raw_data`), removing sensitive information, and generating clean, anonymized datasets in `clean_data/`.
+2. **Data Modeling & Query Optimization (`sql_scripts/`)**: Execution of SQL scripts using DB Browser for SQLite to create consolidated reporting views and index queries for faster performance.
+3. **Visualization & Reporting (`dashboards/` & `looker_export/`)**: Multi-page BI dashboard built in Looker Studio, providing a 360-degree overview of the supply chain.
+
+---
 
 ```mermaid
 graph TD
@@ -50,10 +56,8 @@ graph TD
     B -->|SQL Ingestion| C[(SQLite Database)]
     C -->|SQL Scripts & Indexes| D[Business Analytics Views]
     D -->|CSV Export / Data Connector| E[Looker Studio Dashboard]
-	
-1. **Data Ingestion & Anonymization (`notebooks/`)**: Python script dedicated to processing raw company files (`raw_data`), removing sensitive information, and generating clean, anonymized datasets in `clean_data/`.
-2. **Data Modeling & Query Optimization (`sql_scripts/`)**: Execution of SQL scripts using DB Browser for SQLite to create consolidated reporting views and index queries for faster performance.
-3. **Visualization & Reporting (`dashboard/` & `looker_export/`)**: Multi-page BI dashboard built in Looker Studio, providing a 360-degree overview of the supply chain.
+    
+```
 
 ## 📊 Dashboard Pages & Business Insights
 
@@ -61,7 +65,7 @@ graph TD
 
 ### 1. Executive Overview & Historical Consumption
 
-![Executive Overview & Historical Consumption](dashboard/01-Executive%20Overview%20%26%20Historical%20Consumption.png)
+![Executive Overview & Historical Consumption](dashboards/01-Executive%20Overview%20%26%20Historical%20Consumption.png)
 
 #### 🔎 Key Takeaways
 * **Main Metrics**: Total fabric consumed reached **18.33K meters**. Online orders accounted for most of the volume (**Web Orders: 13.05K m**), followed by wholesale orders (**Bulk Orders: 4,864.92 m**) and samples (**Samples: 338.17 m**). Scrap waste remained well-controlled (**Total Waste: 75.69 m**), while **4,680.43 meters** of fabric are currently in transit.
@@ -74,7 +78,7 @@ graph TD
 
 ### 2. Demand Planning & Inventory Optimization
 
-![Demand Planning & Inventory Optimization](dashboard/02-Demand%20Planning%20%26%20Inventory%20Optimization.png)
+![Demand Planning & Inventory Optimization](dashboards/02-Demand%20Planning%20%26%20Inventory%20Optimization.png)
 
 #### 🔎 Key Takeaways
 * **Stock Health & Alerts**: Dynamic stock categorization into 4 safety priority levels (`ALERT: CRITICAL STOCKOUT`, `WARNING: Buffer Breach`, `Safe Buffer`, `Healthy (High Coverage)`).
@@ -87,7 +91,7 @@ graph TD
 
 ### 3. Finished Goods Inventory & Quality Overview
 
-![Finished Goods Inventory & Quality Overview](dashboard/03-Finished%20Goods%20Inventory%20%26%20Quality%20Overview.png)
+![Finished Goods Inventory & Quality Overview](dashboards/03-Finished%20Goods%20Inventory%20%26%20Quality%20Overview.png)
 
 #### 🔎 Key Takeaways
 * **Finished Products Volume**: Total manufactured inventory currently available in the warehouse stands at **5,235 units**.
@@ -100,7 +104,7 @@ graph TD
 
 ### 4. Warehouse & Location Mapping
 
-![Warehouse & Location Mapping](dashboard/04-Warehouse%20%26%20Location%20Mapping.png)
+![Warehouse & Location Mapping](dashboards/04-Warehouse%20%26%20Location%20Mapping.png)
 
 #### 🔎 Key Takeaways
 * **Warehouse Mapping**: Physical tracking and layout management across **109 Container Boxes**.
@@ -119,4 +123,9 @@ graph TD
 
 ## 📄 PDF Export & Full Report
 
-- [📄 **Download Complete Control Tower PDF Export**](https://datastudio.google.com/reporting/db9a41b3-0c31-4fed-9208-b343cd8ea046/print)
+[📄 Download Full Control Tower PDF Export](dashboards/Omnichannel_Demand_Planning_%26_Inventory_Optimization_Control_Tower.pdf)
+
+
+```python
+
+```
