@@ -1,0 +1,44 @@
+year,order_date,month,stock_or_sample,fabric_sku,composition_(fibers),total_meters_orderered,shipping_method,expected_delivery_(eta)
+2026,2026-09-13,September,Stock,ULA12,Sample Fabric - Input,60.0,SEA freight,2026-12-22
+2026,2026-09-13,September,Stock,DOR08,100% Polyester Jacquard,80.0,SEA freight,2026-12-22
+2026,2026-09-13,September,Stock,ZIM08,100% Polyester Jacquard,100.0,SEA freight,2026-12-22
+2026,2026-09-13,September,Stock,ZIM08,100% Polyester Jacquard,100.0,AIR freight,2026-10-13
+2026,2026-09-13,September,Stock,AYE29,"96% Polyester, 4% Spandex (Ayel Weave)",50.0,SEA freight,2026-12-22
+2026,2026-09-09,September,Stock,SAN08,100% Polyester Jacquard,100.0,AIR freight,2026-10-05
+2026,2026-09-07,September,Stock,SAN08,100% Polyester Jacquard,60.0,AIR freight,2026-10-05
+2026,2026-09-07,September,Stock,LUZ08,100% Polyester Jacquard,100.0,SEA freight,2026-12-16
+2026,2026-09-07,September,Stock,ALI08,100% Polyester Jacquard,50.0,SEA freight,2026-12-16
+2026,2026-09-07,September,Stock,ZHY08,100% Polyester Jacquard,150.0,SEA freight,2026-12-16
+2026,2026-09-07,September,Stock,SKY08,100% Polyester Jacquard,150.0,SEA freight,2026-12-16
+2026,2026-08-24,August,Stock,LUM08,100% Polyester Jacquard,132.0,SEA freight,2026-12-12
+2026,2026-08-24,August,Stock,SEN08,100% Polyester Jacquard,100.0,AIR freight,2026-09-23
+2026,2026-08-17,August,Stock,ROC12,100% Polyester Chiffon,75.0,SEA freight,2026-11-16
+2026,2026-08-12,August,Stock,SEN08,100% Polyester Jacquard,150.0,SEA freight,2026-11-16
+2026,2026-08-12,August,Stock,SAN08,100% Polyester Jacquard,150.0,SEA freight,2026-11-16
+2026,2026-08-12,August,Stock,ULA08,100% Polyester Jacquard,250.0,SEA freight,2026-11-16
+2026,2026-08-12,August,Stock,RAK08,100% Polyester Jacquard,68.0,SEA freight,2026-11-16
+2026,2026-08-12,August,Stock,ALI08,100% Polyester,250.0,SEA freight,2026-11-16
+2026,2026-07-20,July,Sample,KHE28,Sample Fabric - Input,19.43,SEA freight,2026-11-16
+2026,2026-08-03,August,Stock,KHE28,100% Cotton,240.0,SEA freight,2026-11-16
+2026,2026-08-03,August,Stock,ALI08,100% Polyester,150.0,SEA freight,2026-11-16
+2026,2026-08-03,August,Stock,LOA12,Sample Fabric - Input,50.0,SEA freight,2026-11-16
+2026,2026-08-03,August,Stock,AUR08,100% Polyester Jacquard,50.0,SEA freight,2026-11-16
+2026,2026-07-21,July,Stock,CHI08,100% Polyester Jacquard,196.0,SEA freight,2026-10-19
+2026,2026-07-21,July,Stock,SIE08,100% Polyester Jacquard,235.0,SEA freight,2026-10-19
+2026,2026-07-21,July,Stock,ROC08,100% Polyester Jacquard,300.0,SEA freight,2026-10-19
+2026,2026-07-21,July,Stock,ZHY12,100% Polyester Chiffon,154.0,SEA freight,2026-10-19
+2026,2026-07-09,July,Stock,FAM08,100% Polyester Jacquard,150.0,SEA freight,2026-10-19
+2026,2026-06-29,June,Stock,ZEE24,"96% Polyester, 4% Spandex",150.0,SEA freight,2026-10-12
+2026,2026-06-29,June,Stock,KHE28,100% Cotton,200.0,SEA freight,2026-10-19
+2026,2026-06-29,June,Stock,KHE28,100% Cotton,100.0,SEA freight,2026-10-19
+2026,2026-06-29,June,Stock,SCA12,100% Polyester Chiffon,200.0,SEA freight,2026-10-12
+2026,2026-06-29,June,Stock,ERM08,100% Polyester Jacquard,150.0,SEA freight,2026-10-12
+2026,2026-06-29,June,Stock,OMA08,100% Polyester Jacquard,300.0,SEA freight,2026-10-12
+2026,2026-06-29,June,Stock,ZES08,100% Polyester Jacquard,108.0,SEA freight,2026-10-12
+2026,2026-06-26,June,Stock,AVE08,100% Polyester Jacquard,200.0,SEA freight,2026-10-12
+2026,2026-06-26,June,Stock,SOR08,100% Polyester Jacquard,93.0,SEA freight,2026-10-12
+2026,2026-06-26,June,Stock,SIE08,100% Polyester Jacquard,110.0,SEA freight,2026-10-12
+2026,2026-05-06,May,Stock,AUR12,Sample Fabric - Input,72.0,SEA freight,
+2026,2026-05-06,May,Stock,COC12,100% Polyester Chiffon,50.0,SEA freight,
+2026,2026-05-06,May,Stock,SKY08,100% Polyester Jacquard,150.0,SEA freight,
+2026,2026-05-06,May,Stock,ALI08,100% Polyester,200.0,SEA freight,
